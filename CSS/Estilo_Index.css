@@ -1,0 +1,66 @@
+/*EL TITULO DE "FACCIONES"*/
+.Titulo{
+    margin-left: 10%;
+    font-size: 24px;
+    text-decoration: underline;
+}
+/* TODAS LAS IMG Y NOMBRE DE FACCIONES*/
+.Facciones{
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    column-count: 3;
+    border: 1px solid black;
+}
+
+
+/*IMG Y NOMBRE INDIVIDUAL*/
+.Facciones article a{
+    border: 1px solid black;
+    display: block;
+}
+
+.Faccion{
+    border: 1px solid black;
+    width: 40%;
+    margin: 10%;
+}
+
+
+/*NOMBRE DE FACCION*/
+#F_Nombre{
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 15px;
+    margin: auto;
+    text-align: center;
+}
+/*CONTENEDOR "A"-TAG DE IMG DE FACCION*/
+#F_Logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin: auto;
+}
+/*IMG DE "A"-TAG*/
+#F_Logo img{
+    width: 75px;
+    margin-left: -10%;
+    position: relative;
+    bottom: 8px;
+}
+
+
+/*SALTO DE COLUMNA*/
+.Facciones #F6{
+    break-after: column;
+}
+
+.Facciones #F12{
+    break-after: column;
+}
